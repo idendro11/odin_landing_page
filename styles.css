@@ -79,7 +79,49 @@ body {
 }
 
 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.info_header{
+    color: #1F2937;
+    font-size: 36px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+
+.info_content{
+    display: flex;
+    gap: 40px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  #3882F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.txt{
+    height: 150px;
+    width: 150px;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .quote{
